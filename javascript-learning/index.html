@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        let greet=(name)=>(`hello, ${name}!`);
+        console.log(greet("deepak"));
+        console.log(greet("hari"));
+        console.log(greet("kumar"));
+        let sum=(a,b)=>(`sum= ${a+b}`);
+        console.log(sum(1,2));
+        console.log(sum(3,4));
+        console.log(sum(5,6));
+        let IsEven=(a)=>((a%2==0)?true:false);
+        console.log(IsEven(23));
+        let max=(a,b)=>{
+            if(a>b){
+                return a;
+            }else{
+                return b;
+            }
+        };
+        console.log(max(100,20));
+        
+        let myObject = {
+        a: 10,
+        multiplyTraditional(multiplier) {
+            this.a = this.a * multiplier;
+        },
+        multiplyArrow: (multiplier) => this.a * multiplier
+        };
+
+        console.log(myObject.a); 
+        myObject.multiplyTraditional(5);
+        console.log(myObject.a); 
+        const result = myObject.multiplyArrow(20);
+        console.log(result); 
+
+    </script>
+</head>
+<body>
+    <h1>hello world</h1>
+    <form>
+        <input type="button" value="alert" onclick="func();"/>
+    </form>
+</body>
+</html>
