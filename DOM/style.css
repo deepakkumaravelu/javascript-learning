@@ -5,3 +5,6 @@ p{
     justify-content: center;
     align-items: center;
 }
+.huge{
+    font-size: 10rem;
+}
