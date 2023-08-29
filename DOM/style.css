@@ -1,10 +1,38 @@
-h1{
-    color:red;
+
+.box1{
+    position: relative;
+    display: inline-block;
+    animation: glitch 5s infinite;
 }
-p{
+@keyframes glitch {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(-5px,5px);
+    }
+    50%{
+        transform: translate(5px,-5px);
+    }
+    75%{
+        transform: translate(-5px,5px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.box1{
+    border: 1px;
+    border-width: 10px;
+    border-style:double;
+    border-color: #4d17d5;
+    border-radius: 50px;
+    margin: 100px;
+    padding: 100px;
+    box-shadow: 3px 3px 9px rgba(0, 0,0, 0.2);
+}
+.box1{
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.huge{
-    font-size: 10rem;
 }
