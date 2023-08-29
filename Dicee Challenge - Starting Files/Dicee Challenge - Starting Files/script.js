@@ -1,0 +1,43 @@
+var a=Math.floor(Math.random()*6);
+console.log(Math.floor(a+1));
+var b=Math.floor(Math.random()*6);
+console.log(Math.floor(b+1));
+if(a==b){
+    document.querySelector("h1").innerHTML="Match Drawwww...!";
+}
+if(a==1){
+    document.querySelector(".img1").src="./images/dice1.png";
+}
+if(a==2){
+    document.querySelector(".img1").src="./images/dice1.png";
+}
+if(a==3){
+    document.querySelector(".img1").src="./images/dice1.png";
+}
+if(a==4){
+    document.querySelector(".img1").src="./images/dice1.png";
+}
+if(a==5){
+    document.querySelector(".img1").src="./images/dice1.png";
+}
+if(a==6){
+    document.querySelector(".img1").src="./images/dice1.png";
+}
+if(b==1){
+    document.querySelector(".img2").src="./images/dice1.png";
+}
+if(b==2){
+    document.querySelector(".img2").src="./images/dice1.png";
+}
+if(b==3){
+    document.querySelector(".img2").src="./images/dice1.png";
+}
+if(b==4){
+    document.querySelector(".img2").src="./images/dice1.png";
+}
+if(b==5){
+    document.querySelector(".img2").src="./images/dice1.png";
+}
+if(b==6){
+    document.querySelector(".img2").src="./images/dice1.png";
+}
