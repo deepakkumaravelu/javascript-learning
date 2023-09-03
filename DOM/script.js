@@ -13,3 +13,7 @@
 // document.querySelector("h1").classList.add("huge");
 // var nam=document.querySelector("li a").getAttribute("href");
 // document.querySelector("h1").innerHTML=nam;
+const date=new Date();
+const year=date.getFullYear();
+var footer=document.querySelector("footer").textContent;
+document.querySelector("footer").innerHTML="©"+year+footer;
